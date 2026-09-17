@@ -45,3 +45,15 @@ Creative Commons Attribution-ShareAlike 4.0 International License.
 
 You should have received a copy of the license along with this work.
 If not, see <https://creativecommons.org/licenses/by-sa/4.0/>.
+
+
+## Support
+
+The rules and materials in this repository may be used freely in accordance with the license above.
+
+If you enjoy DePANITS and would like to support my work on this game or other projects, you can do so via Buy Me a Coffee:
+
+[buymeacoffee.com/sdiddens.games](https://buymeacoffee.com/sdiddens.games)
+
+Support is entirely optional and has no effect on your rights under the license.
+
