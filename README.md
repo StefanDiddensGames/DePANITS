@@ -22,6 +22,13 @@ While DePANITS is primarily aimed at an adult audience, the author's recommended
  - Rules
  - Printable role cards
  - Optional cover artwork
+
+
+## Download
+
+You do not need to clone the repository to play. You can download the ready-to-use rules directly:
+
+- [Download the German rules as PDF](DePANITS-rules-de.pdf?raw=1)
  
  
 ## Not included
