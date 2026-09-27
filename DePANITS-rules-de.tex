@@ -3,6 +3,10 @@
 \RequirePackage{fix-cm}
 \documentclass[10pt,a4paper]{article}
 
+% Die eingebundenen Druckvorlagen liegen als PDF 1.7 vor.
+\pdfvariable minorversion=7
+
+\usepackage{pdfpages}
 \usepackage{fontspec}
 \usepackage[provide=*,german]{babel}
 \usepackage{microtype}
@@ -39,7 +43,7 @@
 % 70 % Schwarz für Titel, Überschriften sowie Kopf- und Fußzeile.
 \definecolor{structuregray}{gray}{0.3}
 
-\newcommand{\rulesdate}{17 September 2026}
+\newcommand{\rulesdate}{27 September 2026}
 \newcommand{\rulesversion}{v0.917b}
 
 \pagestyle{fancy}
@@ -285,5 +289,13 @@ ISNI: \href{https://mvb-online.de/marken-und-produkte/isni/isni-suchen/000000053
 
 Dieses Werk steht unter der Lizenz \emph{Creative Commons Namensnennung -- Share Alike 4.0 International} (CC BY-SA 4.0). Ihr dürft es unter den Bedingungen dieser Lizenz teilen und bearbeiten. Den vollständigen Lizenztext findet ihr unter:\\
 \href{https://creativecommons.org/licenses/by-sa/4.0/}{\texttt{creativecommons.org/licenses/by-sa/4.0/}}
+
+\section{Danke an mein (Test-)Team}
+
+Für jede Kritik und Anregung bin ich dankbar. Besonders danken möchte ich aber meinen lieben Kolleginnen und Kollegen, die DePANITS mit mir getestet haben: Christin, Freddie, Jannes, Jasmin, Olli, Phil, Saskia, Tim und Tobias. Danke euch!
+
+\clearpage
+
+\includepdf[pages=-]{board-and-cards.pdf}
 
 \end{document}
