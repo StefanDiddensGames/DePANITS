@@ -40,7 +40,7 @@
 \definecolor{structuregray}{gray}{0.3}
 
 \newcommand{\rulesdate}{17 September 2026}
-\newcommand{\rulesversion}{v0.914b}
+\newcommand{\rulesversion}{v0.917b}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -123,7 +123,7 @@ Ihr habt bereits:
 Ihr braucht noch:
 
 \begin{itemize}
-  \item Ein Scrum Poker Karten Deck für die beabsichtigte Spieleranzahl.\\
+  \item Ein Scrum Poker Karten Deck für die beabsichtigte Spielerzahl.\\
   Es sollte die 10 Kartenarten: 1, 2, 3, 5, 8, 13, 20, 40, 100, ? und eine „Coffee Break Karte“ umfassen. Falls es eine ½ Karte enthält sortiert ihr diese aus. Die 100 kann auch ein anderes Symbol, etwa „∞“ zeigen. Wenn euer Deck nicht übermäßig seltsam ist, wird es vermutlich irgendwie damit klappen.
   \item Falls euer Deck keine Coffee Break Karte hat, könnt ihr irgendetwas anderes als Marker dafür verwenden. Wir werden im Folgenden davon ausgehen, dass diese durch eine Karte repräsentiert ist, aber es ist wirklich egal, ihr könnt sogar Kaffeetassen benutzen.
   \item Optional: Normale Pokerkarten. Falls ihr die Rollenkarten nicht ausschneiden wollt oder könnt, dann könnt ihr ja für den PO einen König, den Scrum Master eine Dame und für Good und Bad Devs rote und schwarze Zahlen nehmen.
@@ -164,7 +164,7 @@ Jeder mischt seine zehn Karten, teilt sich davon fünf Karten verdeckt aus. Von 
 
 Die übrigen vier Karten werden erneut gemischt und eine zufällige verdeckt in den „Sprint“ auf den Spielplan gelegt. Legt die nun verbliebenen drei Karten verdeckt beiseite, ihr braucht sie eventuell noch einmal.
 
-Zuvor „üben“ wir den Sprint-Workflow. Die Spieleranzahl vielen Karten im Sprint bilden eure Arbeit ab. Da manche Scrum-Pokerkarten unterscheidbare Rückseiten haben, oder weil ritualisierte Prozesse wichtig sind, nimmt nun der PO oder Scrum Master die Karten vom Sprint. Mischt die Karten unter dem Tisch, wo er diese auch als Stapel umdreht und anschließend, ohne eine Rückseite zu offenbaren, aufgedeckt auf den Tisch legt.
+Zuvor „üben“ wir den Sprint-Workflow. Die Spielerzahl vielen Karten im Sprint bilden eure Arbeit ab. Da manche Scrum-Pokerkarten unterscheidbare Rückseiten haben, oder weil ritualisierte Prozesse wichtig sind, nimmt nun der PO oder Scrum Master die Karten vom Sprint. Mischt die Karten unter dem Tisch, wo er diese auch als Stapel umdreht und anschließend, ohne eine Rückseite zu offenbaren, aufgedeckt auf den Tisch legt.
 
 Gegebenenfalls sind 100er Karten mit dabei, diese sind ein klares Signal, dass eine Aufgabe nicht gut verstanden wurde und müssen daher „refined“ werden. In diesem Fall legt erneut jeder eine verdeckte Karte von den übrigen drei Karten von vorhin in den Sprint. Der PO oder Scrum Master mischt diese wie zuvor und holt sie auf den Tisch. Falls hier 100er Karten enthalten sind, werden diese abgelegt. Dann werden so viele der höchsten Karten genommen, wie 100er Karten im ersten Sprint waren. Diese ersetzen dann die 100er Karten. Karten mit einem Fragezeichen zählen im Refinement 0 Punkte. Nach dem Refinement gibt es schließlich keine Fragen mehr.
 
@@ -194,6 +194,12 @@ Ein spektakulär gescheiterter Sprint kann für die Bad Devs zwar einen Punkt be
 
 Man könnte fast meinen, ein Team würde sich mit der Zeit auf seine eigene Arbeitsweise einstellen.
 
+\section{Fünf-Sprints-Variante}
+
+Ihr spielt fünf statt drei Sprints. Bei der Vorbereitung behält jeder alle zehn Planning-Poker-Karten auf der Hand; das Austeilen und die Ermittlung der ersten Velocity mit den übrigen Karten entfallen. Das klingt nach mehr Optionen, aber über fünf Sprints müsst ihr strategischer spielen und euch als Good oder Bad Devs besser absprechen. Natürlich ohne ganz genau zu wissen, wer was ist.
+
+Die Velocity für den ersten Sprint beträgt 10 mal Spielerzahl plus das Ergebnis von zwei zehnseitigen Würfeln (2d10). Habt ihr keine solchen Würfel oder möchtet ihr ohne Zufall starten, nehmt die Velocity eures letzten Sprints oder 11 mal Spielerzahl.
+
 \section{Refinement}
 
 Enthält ein Sprint mindestens eine 100, ist offensichtlich noch nicht ausreichend geklärt, was eigentlich gemacht werden soll. Es wird refined. Alle Karten des ursprünglichen Sprints bleiben offen liegen. Dadurch kennt ihr bereits einen Teil der späteren Sprintsumme.
@@ -206,10 +212,9 @@ Jeder Spieler, der an diesem Sprint beteiligt ist, legt nun eine weitere Karte a
 
 \qa{Und was machen wir dann?}{Genau dasselbe wie zuvor. Wenn eure 100er die Zahl 100 zeigen, dann addiert ihr den nicht getauschten 100er mit, wenn da ein Wal oder so drauf ist, dann halt nicht. Es sei denn es hat sich eine Mathematik durchgesetzt, die adäquat natürliche Zahlen mit Walen addieren kann. Ach, und Glückwunsch, diese Situation herzustellen war sicher nicht ganz einfach. Ich bin begeistert von eurem Team. Wow! So nun weiter im Text.}
 
-\clearpage
 \section{Der Pausenraum}
 
-Neben den drei Sprints gibt es noch einen vierten Ort: den Pausenraum.
+Neben den Sprints gibt es noch einen weiteren Ort: den Pausenraum.
 
 Ihr habt alle eine „Coffee Break“-Karte, diese könnt ihr einmalig nutzen um in den Pausenraum zu gehen.
 
@@ -218,7 +223,7 @@ Ein guter PO macht keine Pause, daher kann er auch nicht in den Pausenraum gehen
 
 Der Pausenraum funktioniert im Wesentlichen genauso wie ein Sprint. Jedes Teammitglied im Pausenraum legt verdeckt eine Karte, dann wird kompliziert gemischt. Aufdecken und gegebenenfalls ein Refinement. Und nein, ich kann euch nicht sagen was man an der Aufgabe: „Pause machen“ nicht verstanden haben kann.
 
-Die Besonderheit des Pausenraums ist, dass sein Zielwert, bzw. die Pausenvelocity, durch 10mal die Anzahl der Entwickler vorgegeben ist. Im Spiel zu acht sind das also 60 Punkte. Und das der Punkt für den Pausenraum erst nach dem dritten Sprint ausgewertet wird.
+Die Pausenvelocity beträgt 10 mal (Spielerzahl minus 3) Punkte. Bei acht Spielern sind das also 50 Punkte. Der Punkt für den Pausenraum wird erst nach dem letzten Sprint ausgewertet.
 
 Die Karten die dort gespielt werden bleiben also erstmal liegen und werden erst später addiert.
 
@@ -226,11 +231,11 @@ Außerdem könnt ihr im Pausenraum auch eine gemeinsame Pause machen. Sind zwei 
 
 Ja da steht „anbieten“. Ihr dürft also nicht euch eure ganze Hand nach und nach zeigen und jedes Mal den Handel ablehnen als wäre nichts gewesen. Ich hab euch durchschaut.
 
-Wenn der Scrum Master mitspielt ist es empfohlen die verwendeten „Coffee Break“-Karten ebenfalls im Pausenraum zu sammeln. Seine Aufgabe ist es nämlich für ein erholtes und motiviertes Team zu Sorgen und gewinnt unabhängig von den anderen genau dann, wenn mindestens Spieleranzahl minus 1 „Coffee Break“-Karten genutzt wurden. Der PO macht ja keine Pause.
+Wenn der Scrum Master mitspielt ist es empfohlen die verwendeten „Coffee Break“-Karten ebenfalls im Pausenraum zu sammeln. Seine Aufgabe ist es nämlich für ein erholtes und motiviertes Team zu Sorgen und gewinnt unabhängig von den anderen genau dann, wenn mindestens Spielerzahl minus 1 „Coffee Break“-Karten genutzt wurden. Der PO macht ja keine Pause.
 
 \section{Der Scrum Master}
 
-Im Grunde ist hierzu schon alles gesagt. Ab 8 Spielern erhält jemand diese Rolle. Die Rolle bleibt verdeckt, denn nur der PO deckt seine Rolle auf. Und er gewinnt oder verliert unabhängig von den anderen Spielern indem mindestens Spieleranzahl minus 1 „Coffee Break“-Karten genutzt wurden.
+Im Grunde ist hierzu schon alles gesagt. Ab 8 Spielern erhält jemand diese Rolle. Die Rolle bleibt verdeckt, denn nur der PO deckt seine Rolle auf. Und er gewinnt oder verliert unabhängig von den anderen Spielern indem mindestens Spielerzahl minus 1 „Coffee Break“-Karten genutzt wurden.
 
 Wie soll das gehen? Keine Ahnung, ich bin kein Scrum Master. Aber ich denke einem echten Scrum Master fällt schon etwas ein, um seine Entwickler zu einer Pause zu motivieren.
 
@@ -247,7 +252,7 @@ Ihr macht in jedem Fall eine Retrospektive. Je nach aktuellem Punktestand könnt
 
 Diskutiert über eure Rollen, also jeder wird wohl behaupten ein Good Dev gewesen zu sein und jeder nennt bitte eine andere Person und argumentiert warum diese Person ein Good Dev oder ein Bad Dev sein könnte. Oder wer auch immer der Scrum Master ist.
 
-Schaut nun auf den Punktestand aus den drei Sprints und auf den Pausenraum. Falls kein Unentschieden besteht hat die entsprechende Partei gewonnen. Der Scrum Master darf sich dann auch offenbaren und evaluieren ob er zu den Gewinnern oder Verlierern zählt. Im Falle eines Unentschiedens steht und fällt es nun mit der Menschenkenntnis des PO.
+Schaut nun auf den Punktestand aus den gespielten Sprints und auf den Pausenraum. Falls kein Unentschieden besteht hat die entsprechende Partei gewonnen. Der Scrum Master darf sich dann auch offenbaren und evaluieren ob er zu den Gewinnern oder Verlierern zählt. Im Falle eines Unentschiedens steht und fällt es nun mit der Menschenkenntnis des PO.
 
 Dieser versucht die Bad Dev alle richtig zu benennen. Stimmt sein Tipp, dürfen die Good Dev und der PO sich über den Sieg freuen. Ansonsten gewinnen die Bad Devs. Und natürlich darf auch hier nun der Scrum Master seine Sieg oder Niederlage bekanntgeben.
 
