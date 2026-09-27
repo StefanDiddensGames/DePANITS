@@ -9,8 +9,8 @@ DePANITS is designed for 4–12 players. Playtests with 4 and 5 players have con
 
 The game can be played in two modes:
 
- - Short mode: 3 Sprints
- - Standard mode: 5 Sprints
+ - Standard short mode: 3 Sprints
+ - Tactical mode: 5 Sprints
 
 Depending on the number of players and the selected mode, a game typically takes around 20–30 minutes.
 
@@ -19,8 +19,7 @@ While DePANITS is primarily aimed at an adult audience, the author's recommended
 
 ## Components
 
- - Rules
- - Printable role cards
+ - German rules PDF, including a printable game board and role cards
  - Optional cover artwork
 
 
