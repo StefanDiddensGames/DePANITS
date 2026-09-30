@@ -27,7 +27,7 @@ While DePANITS is primarily aimed at an adult audience, the author's recommended
 
 You do not need to clone the repository to play. You can download the ready-to-use rules directly:
 
-- [Download the German rules as PDF](DePANITS-rules-de.pdf?raw=1)
+- [Download the German rules as PDF](https://github.com/StefanDiddensGames/DePANITS/releases/download/v0.917b/DePANITS-rules-de_0_917b.pdf)
  
  
 ## Not included
