@@ -1,3 +1,6 @@
+
+<img src="EnPANITS_cover.png" alt="Cover for the english version" width="80%">
+
 # DePANITS
 
 Turn your Planning Poker cards into a 20–30 minute hidden-traitor social game. Perfect as a little ritual after your actual Planning Poker session — or just as a quick game over lunch.
@@ -20,7 +23,7 @@ While DePANITS is primarily aimed at an adult audience, the author's recommended
 ## Components
 
  - German rules PDF, including a printable game board and role cards
- - Optional cover artwork
+ - Optional cover artwork (german and english version)
 
 
 ## Download
@@ -28,6 +31,15 @@ While DePANITS is primarily aimed at an adult audience, the author's recommended
 You do not need to clone the repository to play. You can download the ready-to-use rules directly:
 
 - [Download the German rules as PDF](https://github.com/StefanDiddensGames/DePANITS/releases/download/v0.917b/DePANITS-rules-de_0_917b.pdf)
+
+
+## EnPANITS – English version
+
+An English cover for DePANITS already exists under the working title **EnPANITS**.
+
+An English version of the game rules is planned as well. Before translating and publishing the rules, however, the German version will be further refined and optimized based on playtesting and feedback.
+
+Once the German rules have reached a more stable state, the English rules will follow.
  
  
 ## Not included
