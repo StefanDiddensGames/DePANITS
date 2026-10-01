@@ -1,5 +1,6 @@
-
-<img src="EnPANITS_cover.png" alt="Cover for the english version" width="80%">
+<p align="center">
+  <img src="EnPANITS_cover.png" alt="Cover for the English version" width="80%">
+</p>
 
 # DePANITS
 
